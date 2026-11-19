@@ -1,0 +1,21 @@
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache Python e Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Banco SQLite gerado localmente pelo bootstrap/atualizador
+database/*.db
+database/*.db-wal
+database/*.db-shm
+database/*.tmp
+
+# Sistema operacional e logs
+*.log
+.DS_Store
+Thumbs.db
