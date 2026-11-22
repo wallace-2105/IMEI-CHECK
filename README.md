@@ -187,3 +187,4 @@ A suíte com **22 testes automatizados** (`pytest`) valida toda a regra de negó
 - **Cobertura comercial da GSMA:** nenhuma base pública gratuita contém 100% de todas as alocações comerciais mundiais da GSMA (cuja base oficial completa é paga e restrita). Quando um rastreador muito novo ou proprietário retornar `TAC não encontrado`, recomenda-se cadastrar seu lote via CSV interno na aba **Banco de dados**.
 - **Validade vs. Identificação:** um IMEI aprovado no cálculo de Luhn possui estrutura válida, mas pode não estar cadastrado na base pública.
 - **Escopo estritamente TAC:** a consulta identifica apenas fabricante/modelo atribuído aos 8 primeiros dígitos. Ela **não** verifica se o dispositivo está ligado, conectado à rede celular, com chip M2M ativo ou bloqueado na operadora, e **não** inventa classificações ausentes na base de origem.
+- **Uso externo para empresa**
